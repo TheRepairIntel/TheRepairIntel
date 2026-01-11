@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Repair Intel - AI-Powered Home Inspection Cost Analysis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-in-up { animation: fadeInUp 0.8s ease-out; }
+        .gradient-text {
+            background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .sample-report {
+            font-family: 'Courier New', monospace;
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            font-size: 0.75rem;
+            line-height: 1.4;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center gap-2">
+                    <span class="text-2xl font-bold gradient-text">🔍 The Repair Intel</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#how-it-works" class="text-gray-700 hover:text-sky-600 transition font-medium">How It Works</a>
+                    <a href="#sample-report" class="text-gray-700 hover:text-sky-600 transition font-medium">Sample Report</a>
+                    <a href="#pricing" class="text-gray-700 hover:text-sky-600 transition font-medium">Pricing</a>
+                    <a href="/upload" class="bg-gradient-to-r from-sky-600 to-indigo-600 text-white px-6 py-2 rounded-lg hover:from-sky-700 hover:to-indigo-700 transition font-semibold shadow-lg">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-sky-600 via-indigo-600 to-violet-700 text-white py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="fade-in-up">
+                    <div class="inline-block bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
+                        <span class="text-sm font-semibold">🚀 AI-Powered Intelligence for Real Estate</span>
+                    </div>
+                    <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                        Intelligence That Wins Negotiations
+                    </h1>
+                    <p class="text-xl mb-8 text-sky-100">
+                        Transform home inspection reports into powerful negotiation tools. Get AI-powered repair cost analysis in 5 minutes with <strong>Handyman to Contractor</strong> pricing ranges.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="/upload" class="bg-white text-sky-600 px-8 py-4 rounded-lg text-lg font-bold hover:bg-gray-100 transition text-center shadow-2xl transform hover:scale-105">
+                            Upload Report - $49.99
+                        </a>
+                        <a href="#sample-report" class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-sky-600 transition text-center">
+                            See Sample Report
+                        </a>
+                    </div>
+                    <div class="mt-8 flex flex-wrap items-center gap-4 text-sm">
+                        <div class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-green-300" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-sky-100">PDF emailed in 5 min</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-green-300" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-sky-100">Handyman to Contractor pricing</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-green-300" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-sky-100">Personalized cover page</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="bg-white rounded-2xl shadow-2xl p-6 transform hover:scale-105 transition">
+                        <div class="bg-gradient-to-br from-sky-50 to-indigo-50 rounded-xl p-6">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="bg-gradient-to-br from-sky-600 to-indigo-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold shadow-lg">RI</div>
+                                <div>
+                                    <h3 class="font-bold text-gray-800">Sample Intelligence Report</h3>
+                                    <p class="text-sm text-gray-600">1234 Oak Street, San Diego, CA</p>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="bg-white rounded-lg p-4 border-l-4 border-red-500 shadow-sm">
+                                    <p class="text-sm font-bold text-gray-800 mb-1">Roofing Deficiencies</p>
+                                    <p class="text-xs text-gray-600 mb-2">Multiple damaged shingles, flashing issues</p>
+                                    <p class="text-xs font-semibold text-sky-700">Estimated Range: Handyman to Contractor</p>
+                                    <div class="flex items-center justify-between mt-2">
+                                        <div>
+                                            <p class="text-xs text-gray-500">Handyman</p>
+                                            <p class="text-lg font-bold text-gray-800">$3,800</p>
+                                        </div>
+                                        <span class="text-gray-400">→</span>
+                                        <div>
+                                            <p class="text-xs text-gray-500">Contractor</p>
+                                            <p class="text-lg font-bold text-gray-800">$9,500</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-white rounded-lg p-4 border-l-4 border-orange-500 shadow-sm">
+                                    <p class="text-sm font-bold text-gray-800 mb-1">Electrical Safety</p>
+                                    <p class="text-xs text-gray-600 mb-2">Ungrounded outlets, panel issues</p>
+                                    <p class="text-xs font-semibold text-sky-700">Estimated Range: Handyman to Contractor</p>
+                                    <div class="flex items-center justify-between mt-2">
+                                        <div>
+                                            <p class="text-xs text-gray-500">Handyman</p>
+                                            <p class="text-lg font-bold text-gray-800">$1,800</p>
+                                        </div>
+                                        <span class="text-gray-400">→</span>
+                                        <div>
+                                            <p class="text-xs text-gray-500">Contractor</p>
+                                            <p class="text-lg font-bold text-gray-800">$5,500</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4 pt-4 border-t border-gray-200">
+                                <p class="text-sm font-bold text-gray-800">Total Repair Intel Range</p>
+                                <div class="flex items-center justify-between mt-2">
+                                    <div>
+                                        <p class="text-xs text-gray-500">Handyman Total</p>
+                                        <p class="text-2xl font-bold bg-gradient-to-r from-sky-600 to-indigo-600 bg-clip-text text-transparent">$14,200</p>
+                                    </div>
+                                    <span class="text-xl text-gray-400">→</span>
+                                    <div>
+                                        <p class="text-xs text-gray-500">Contractor Total</p>
+                                        <p class="text-2xl font-bold bg-gradient-to-r from-sky-600 to-indigo-600 bg-clip-text text-transparent">$43,800</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">How The Repair Intel Works</h2>
+                <p class="text-xl text-gray-600">Intelligence-powered analysis in 3 simple steps</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="text-center">
+                    <div class="bg-gradient-to-br from-sky-100 to-indigo-100 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 text-4xl shadow-xl">
+                        📄
+                    </div>
+                    <div class="bg-sky-600 text-white text-sm font-bold px-4 py-1 rounded-full inline-block mb-4">STEP 1</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Upload Report</h3>
+                    <p class="text-gray-600 leading-relaxed">Upload your PDF inspection report and enter your contact information. Takes 2 minutes.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-gradient-to-br from-indigo-100 to-violet-100 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 text-4xl shadow-xl">
+                        💳
+                    </div>
+                    <div class="bg-indigo-600 text-white text-sm font-bold px-4 py-1 rounded-full inline-block mb-4">STEP 2</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Pay Securely</h3>
+                    <p class="text-gray-600 leading-relaxed">One-time payment of $49.99 via Stripe. Secure, fast, no subscription required.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-gradient-to-br from-green-100 to-emerald-100 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 text-4xl shadow-xl">
+                        📧
+                    </div>
+                    <div class="bg-green-600 text-white text-sm font-bold px-4 py-1 rounded-full inline-block mb-4">STEP 3</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Receive PDF</h3>
+                    <p class="text-gray-600 leading-relaxed">Professional PDF with personalized cover page emailed within 5 minutes. Ready to use!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sample Report -->
+    <section id="sample-report" class="py-20 bg-gradient-to-b from-gray-50 to-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Sample Intelligence Report</h2>
+                <p class="text-xl text-gray-600">See exactly what your clients receive</p>
+            </div>
+            
+            <div class="bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-200">
+                <div class="bg-gradient-to-r from-sky-600 to-indigo-600 text-white p-6">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-1">Professional PDF Report</h3>
+                            <p class="text-sky-100">Personalized cover page + detailed analysis</p>
+                        </div>
+                        <div class="text-5xl">📄</div>
+                    </div>
+                </div>
+                
+                <div class="p-8">
+                    <div class="sample-report mb-6">
+═══════════════════════════════════════════════════════════
+               THE REPAIR INTEL
+         COST ANALYSIS INTELLIGENCE REPORT
+═══════════════════════════════════════════════════════════
+
+PREPARED FOR:      John & Sarah Smith
+PROPERTY ADDRESS:  1234 Oak Street, San Diego, CA 92101
+DATE PREPARED:     January 10, 2025
+REPORT ID:         RI-2025-0001
+PREPARED BY:       Anarumo Inspection Services
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+EXECUTIVE SUMMARY
+
+This intelligence report provides repair cost estimates based 
+on your home inspection findings. Costs are shown as 
+HANDYMAN to CONTRACTOR ranges to indicate scope and 
+complexity of work.
+
+For questions: support@therepairintel.com
+
+═══════════════════════════════════════════════════════════
+
+<strong>Roofing Deficiencies</strong>
+
+Estimated Range: Handyman to Contractor
+  Handyman Cost:   $3,800
+  Contractor Cost: $9,500
+
+Referenced inspection items include:
+  • Section 1.1.2 – Multiple missing or damaged shingles
+  • Section 1.1.5 – Roof flashing improperly sealed
+  • Section 1.2.1 – Gutters detached from fascia board
+
+Recommended Trade: Licensed Roofing Contractor
+
+───────────────────────────────────────────────────────────
+
+<strong>Electrical Safety Concerns</strong>
+
+Estimated Range: Handyman to Contractor
+  Handyman Cost:   $1,800
+  Contractor Cost: $5,500
+
+Referenced inspection items include:
+  • Section 6.3.2 – Ungrounded three-prong outlets
+  • Section 6.1.4 – Main electrical panel signs of overheating
+  • Section 6.4.1 – Exterior GFCI outlets not functioning
+
+Recommended Trade: Licensed Electrician
+
+───────────────────────────────────────────────────────────
+
+<strong>Plumbing Functional Deficiencies</strong>
+
+Estimated Range: Handyman to Contractor
+  Handyman Cost:   $2,200
+  Contractor Cost: $7,800
+
+Referenced inspection items include:
+  • Section 7.2.3 – Water heater showing signs of leakage
+  • Section 7.1.5 – Low water pressure throughout home
+  • Section 7.3.2 – Galvanized supply pipes showing corrosion
+
+Recommended Trade: Licensed Plumber
+
+═══════════════════════════════════════════════════════════
+
+<strong>TOTAL ESTIMATED REPAIR RANGE</strong>
+
+Handyman Total:   $14,200
+Contractor Total: $43,800
+
+Note: These estimates are for negotiation context only and 
+do not constitute contractor bids or guarantees. Actual costs 
+may vary based on contractor rates, material selection, and 
+site-specific conditions.
+
+═══════════════════════════════════════════════════════════
+
+© 2025 The Repair Intel - All rights reserved
+                    </div>
+                    
+                    <div class="bg-sky-50 border-l-4 border-sky-600 p-6 rounded-r-lg">
+                        <h4 class="font-bold text-gray-900 mb-3">What Makes This Report Powerful:</h4>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600 font-bold">✓</span>
+                                <span><strong>Personalized cover page</strong> with client name and property address</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600 font-bold">✓</span>
+                                <span><strong>Handyman to Contractor pricing</strong> shows budget vs professional options</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600 font-bold">✓</span>
+                                <span><strong>Inspection section citations</strong> tie directly to original report</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-600 font-bold">✓</span>
+                                <span><strong>Ready for negotiation</strong> - neutral, professional tone</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="py-20 bg-gradient-to-br from-sky-50 via-indigo-50 to-violet-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Simple, Transparent Pricing</h2>
+                <p class="text-xl text-gray-600">One report. One price. Instant intelligence.</p>
+            </div>
+            <div class="max-w-lg mx-auto">
+                <div class="bg-white rounded-2xl shadow-2xl overflow-hidden border-4 border-sky-600">
+                    <div class="bg-gradient-to-r from-sky-600 via-indigo-600 to-violet-600 text-white text-center py-12">
+                        <p class="text-sm uppercase tracking-wide mb-2 font-semibold">Per Intelligence Report</p>
+                        <p class="text-7xl font-bold mb-2">$49.99</p>
+                        <p class="text-sky-100">One-time payment • No subscription</p>
+                    </div>
+                    <div class="p-8">
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start gap-3">
+                                <svg class="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700 font-medium">Professional PDF emailed within 5 minutes</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <svg class="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700 font-medium">Personalized cover page with your details</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <svg class="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700 font-medium">Handyman to Contractor pricing ranges</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <svg class="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700 font-medium">Inspection section citations included</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <svg class="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span class="text-gray-700 font-medium">Ready for immediate negotiation use</span>
+                            </li>
+                        </ul>
+                        <a href="/upload" class="block w-full bg-gradient-to-r from-sky-600 to-indigo-600 text-white text-center py-4 rounded-lg text-lg font-bold hover:from-sky-700 hover:to-indigo-700 transition shadow-lg transform hover:scale-105">
+                            Get Your Intelligence Report Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-gradient-to-r from-sky-600 via-indigo-600 to-violet-600 py-24 text-white">
+        <div class="max-w-4xl mx-auto text-center px-4">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Ready to Get The Intel?</h2>
+            <p class="text-xl mb-8 text-sky-100">Join real estate professionals using The Repair Intel to close better deals with Handyman to Contractor pricing intelligence.</p>
+            <a href="/upload" class="inline-block bg-white text-sky-600 px-12 py-5 rounded-lg text-lg font-bold hover:bg-gray-100 transition shadow-2xl transform hover:scale-105">
+                Upload Report - $49.99
+            </a>
+            <p class="mt-6 text-sm text-sky-200">PDF delivered to your inbox in 5 minutes • No subscription required</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-4">🔍 The Repair Intel</h3>
+                    <p class="text-sm">AI-powered repair cost intelligence for home inspections.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Product</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#how-it-works" class="hover:text-white transition">How It Works</a></li>
+                        <li><a href="#sample-report" class="hover:text-white transition">Sample Report</a></li>
+                        <li><a href="#pricing" class="hover:text-white transition">Pricing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-white transition">About Us</a></li>
+                        <li><a href="#" class="hover:text-white transition">Contact</a></li>
+                        <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Contact</h4>
+                    <p class="text-sm mb-2">support@therepairintel.com</p>
+                    <p class="text-sm">Available 9AM - 6PM PST</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-sm">
+                <p>&copy; 2025 The Repair Intel. All rights reserved.</p>
+                <p class="text-xs text-gray-500 mt-2">Powered by Anarumo Inspection Services</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+```
